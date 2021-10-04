@@ -15,8 +15,8 @@ body{
   justify-content: space-around;
   position: relative;
   height: 10vh;
-  border: 1px solid red;
-}
+  
+} 
 .logo{
   font-size: large;
   position: absolute;
@@ -26,7 +26,14 @@ body{
 }
 .chem{
   color: red;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: sans-serif;
+  font-size: larger;
+}
+.swot{
+  font-family: 'Zilla Slab', serif;
+  font-size: larger;
+
+
 }
 .leftnav{
   position: absolute;
@@ -35,14 +42,28 @@ body{
   
 }
 .navs{
-  margin-right: 15px;
+  margin-right: 30px;
   text-decoration: none;
+  font-family: 'Zilla Slab', serif;
+ font-weight: bold;
+  color: #000111;
+}
+.navs:hover{
+   color: rgb(138, 130, 130);
+  transition: 0.4s all ease;
+
 }
 
 /* ***********home*********** */
 
-.main_homw{
+.main_home{
+  margin-top:10vw;
   width: 100%;
+  height: 300vh
+}
+.section1{
+  width: 100%;
+  height: 80vh;
 }
 .h1tag{
   color: red;
@@ -50,6 +71,8 @@ body{
   margin-left: 4vw;
   font-size: 1.5rem;
   font-weight:400 ;
+  font-family:sans-serif;
+
 }
 .second_heading{
   margin-top: 10px;
@@ -57,11 +80,17 @@ body{
 }
 .h1tag2{
   font-weight: 800;
-  font-size: xx-large;
+  font-size: 55px;
+  font-family: 'Merriweather', serif;    
+
 }
 .third_heading{
-  margin-top: 10px;
+  margin-top: 40px;
   margin-left: 4vw;
+  font-size: 35px;
+
+  font-family:sans-serif;
+
 }
 .fourth_section{
   margin-top: 10px;
@@ -71,10 +100,183 @@ body{
 .btn{
   padding: 10px;
   background-color: rgb(238, 130, 41);
-  border-radius: 20px;
+  border-radius: 24px;
   border: none;
   color: #fff;
-  width: 130px;
-  font-family: Poppins;
+  width: 140px;
+  font-family: sans-serif;
+  margin-top: 20px;
   
 }
+.img1{
+  position: absolute;
+  top: 200px;
+  right: 10px;
+  width: 350px;
+}
+
+
+
+/* ***********section2*********** */
+
+.section2{
+  width: 100%;
+  height: 80vh;
+ 
+}
+
+.h1sctn2{
+color: red;
+margin-top: 4vw;
+margin-left: 4vw;
+font-size: 1.5rem;
+font-weight:600 ;
+font-family:sans-serif;
+}
+.firstpara_sctn2{
+  font-weight: 900;
+  font-family: 'Roboto Slab', serif;
+
+  
+}
+.sctn2_2nddiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+
+}
+.para_sctn2{
+  font-family:sans-serif;
+  color: grey;
+}
+
+.div_sectn2_card{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+
+}
+.cards{
+  width: 30%;
+  height: 300px;
+  
+}
+.cards img{
+  width: 80px;
+  height: 90px;
+  }
+  .pptimg{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* .ppt::before{
+    
+    width: 30px;
+  } */
+  .ppt{
+    background-color: rgba(228, 225, 225, 0.658);
+    border-radius: 10px;
+    border-top: 4px solid red;
+
+
+  }
+
+
+.first_card_para{
+    font-family:sans-serif;
+}
+.h3_of_card{
+  font-family: 'Roboto Slab', serif;
+  font-weight: bolder;
+
+}
+
+
+/* ***********section3*********** */
+
+.section3{
+  
+  width: 100%;
+  height: 70vh;
+}
+.divblue{
+  background-color: rgb(211, 251, 255);
+  height: 450px;
+  width: 100vw;
+  position: relative;
+
+}
+.offer{
+  margin-top: 100px;
+}
+.offers{
+  color: rgb(255, 5, 5);
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  font-family: sans-serif;
+}
+
+.sctn3violet{
+position: absolute;
+top: 40%;
+left: 4%;
+  width: 90%;
+  height: 35vh;
+  background-color: rgb(153, 176, 250);
+  border-radius: 25px;
+
+ }
+ .monthlyplans{
+   position: absolute;
+   left: 50px;
+   top:10%;
+   
+ }
+ .yearlyplans{
+   position: absolute;
+   right: 50px;
+   top: 10%;
+  
+ }
+ .monthly_plan{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    color: #fff;
+
+   
+ }
+ .just500{
+   font-family: sans-serif;
+   color: #fff;
+ }
+ .monthlyplan{
+   background-color: #fff;
+   color: rgb(153, 176, 250);
+   border-radius: 10px;
+   border: none;
+   width: 100px;
+   height: 45px;
+   font-family: sans-serif;
+ }
+ .reactlogo{
+   position: absolute;
+   top:0px;
+   left: 35%;
+   background-color: rgb(211, 251, 255);
+   width: 350px;
+   height: 35vh;
+   content: "";
+   border-radius: 100px;
+
+ }
+ .reactlogo img{
+   position: absolute;
+   top:0px;
+   left:23%;
+   width: 200px;
+ }

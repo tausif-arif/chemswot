@@ -4,7 +4,7 @@ import '../App.css'
 
 const Navbar = () => {
     return (
-        <div className="main_nav">
+        <div className="main_nav fixed-top">
         <div className="logo"><span className="chem">Chem</span><span className="swot">Swot</span></div>
         <div className="leftnav">
          <NavLink className="navs" to="/">Home</NavLink>
